@@ -1,0 +1,424 @@
+html, body {
+  height: 100%;
+  font-family: Open Sans;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/*---Header---*/
+.header {
+  position: relative;
+  background-image: url(../img/header-bg.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav, .rigt_menu, .left_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo {
+  margin-top: 25px;
+}
+
+.left_side, .rigt_side {
+  width: 39.0625%;
+  height: 55px;
+  max-width: 100%;
+  padding-top: 3.5%;
+  border-bottom: 1px solid #ffffff33;
+}
+
+.nav li a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav li a:hover {
+  color: #FFD600;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.content_header {
+  width: 59.02778%;
+  max-width: 59.02778%;
+  margin: 0 auto;
+  margin-top: 90px;
+  text-align: center;
+  border-left: 1px solid #ffffff33;
+  border-right: 1px solid #ffffff33;
+}
+
+.suptitle {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.main_title {
+  font-family: 'Banny BoldRound';
+  font-size: 96px;
+  text-transform: uppercase;
+  margin-top: 65px;
+  line-height: 0;
+  color: #fff;
+}
+
+.yellow_line {
+  position: absolute;
+  width: 60px;
+  height: 5px;
+  top: 62%;
+  left: 48.13%;
+  border-radius: 50px;
+  background: #E8C300;
+}
+
+.button_block {
+  margin-top: 100px;
+  margin-right: 15px;
+  padding-top: 25px;
+}
+
+.left_btn, .right_btn {
+  border: 1px solid #ffffff33;
+  font-family: Open Sans;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 25px 60px 25px;
+}
+
+.right_btn {
+  margin-left: 20px;
+}
+
+.left_btn {
+  margin-right: 20px;
+}
+
+.left_btn:hover, .right_btn:hover {
+  background-color: #E8C300;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.social_bloc {
+  position: absolut;
+  right: 0;
+  bottom: 150px;
+  position: absolute;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 60px;
+}
+
+.social_bloc i {
+  color: #FFFFFF;
+  font-size: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social_bloc .soc_link {
+  display: block;
+  border: 1px solid #ffffff33;
+  margin: 20px 0 0;
+  padding: 25px;
+  border-radius: 50%;
+  text-align: center;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+
+.soc_link:hover {
+  background-color: #E8C300;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+/*---About-US--and Pancakes-*/
+.about_us, .pancakes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutus_block, .pancakes_block {
+  width: 46.875%;
+  margin-top: 130px;
+}
+
+.aboutus_block h3, .pancakes_block h3 {
+  font-family: 'Banny BoldRound';
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aboutus_block .yellow_line2, .pancakes_block .yellow_line2 {
+  margin: 20px auto 20px;
+  width: 60px;
+  height: 5px;
+  background: #E8C300;
+  border-radius: 50px;
+}
+
+.about_suptitle, .panc_suptitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.about_discription, .panc_discription {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.img_about, .img_pancakes {
+  width: 46.875%;
+}
+
+.img_about img, .img_pancakes img {
+  max-width: 100%;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+/* PANCAKES */
+.pancakes {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-image: url(../img/pancake.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pancakes .panc_discription, .pancakes .panc_suptitle, .pancakes .panc_title {
+  color: #FFFFFF;
+}
+
+.pancakes_block {
+  margin: 60px;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+}
+
+/* ---BLOCK MENU--- */
+.block_menu {
+  margin-top: 70px;
+}
+
+.menu_title_block {
+  width: 550px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.yellow_line3 {
+  margin: 20px auto 20px;
+  width: 60px;
+  height: 5px;
+  background: #E8C300;
+  border-radius: 50px;
+}
+
+.menu_name {
+  font-family: 'Banny BoldRound';
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.menu_discr {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.sub_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 760px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.menu_item {
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  color: #333;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sub_menu a:last-child {
+  border-right: none;
+}
+
+.menu_item:hover {
+  color: #E8C300;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.menu_price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.dish_line {
+  margin-bottom: 35px;
+}
+
+.dish_name {
+  font-family: 'Banny BoldRound';
+  font-size: 21px;
+  color: #333333;
+}
+
+.dish_discrip {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #33333380;
+}
+
+/* PRIVAT IVENT */
+.privat_ivent {
+  width: 100%;
+  background-image: url(../img/pancake.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.privat_ivent .iv_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.privat_ivent h5 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wrapper3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contact_ivent {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+/* PICTURES */
+.pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+/*# sourceMappingURL=style.css.map */
