@@ -8,8 +8,13 @@ html, body {
   margin: 0 auto;
 }
 
+.logo-mob{
+  display: none;
+}
+
 /*---Header---*/
 .header{
+  width: 100%;
   position: relative;
   background-image: url(../img/header-bg.png);
   min-height: 100vh;
@@ -53,10 +58,8 @@ html, body {
   width: 850px*100%/1440px;
   max-width: 850px*100%/1440px;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 65px;
   text-align: center;
-  border-left: 1px solid #ffffff33;
-  border-right: 1px solid #ffffff33;
 }
 
 .suptitle{
@@ -79,17 +82,17 @@ html, body {
 }
 
 .yellow_line{
-  position: absolute;
+  
   width: 60px;
   height: 5px;
-  top: 62%;
-  left: 48.13%;
   border-radius: 50px;
   background: #E8C300;
+  margin: 0 auto;
+  margin-top: 70px;
 }
 
 .button_block{
-  margin-top: 100px;
+  margin-top: 40px;
   margin-right: 15px;
   padding-top: 25px;
 }
@@ -104,8 +107,8 @@ html, body {
   line-height: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  border-radius: 5px;
-  padding:25px 60px 25px
+  border-radius: 8px;
+  padding: 15px 50px 15px;
 }
 
 .right_btn{
@@ -124,7 +127,7 @@ html, body {
 .social_bloc{
   position: absolut;
   right: 0;
-  bottom: 150px;
+  bottom: 120px;
   position: absolute;
 
   justify-content: end;
@@ -267,11 +270,11 @@ margin-bottom: 50px;
 
 .sub_menu{
   display: flex;
+  
   justify-content: space-between;
-  width: 760px;
+  width: 760px*100%/1280px;
   margin: 0 auto;
   height: 50px;
-  
 }
 
 .menu_item{
@@ -301,6 +304,7 @@ margin-bottom: 50px;
 
 .menu_price{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 80px;
@@ -335,9 +339,6 @@ margin-bottom: 50px;
   background-image: url(../img/pancake.png);
   background-size: cover;
   background-repeat: no-repeat;
-  .iv_item{
-    display: flex;
-  }
   h5{
     padding-top: 35px;
     padding-bottom: 35px;
@@ -357,11 +358,24 @@ margin-bottom: 50px;
 
 .wrapper3{
   display: flex;
-
   justify-content: space-between;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  .iv_img{
+    img{
+      width: 100%;
+      margin-left: 50px;
+    }
+  }
+}
+
+
+.iv_img2{
+  img{
+    width: 42%;
+    margin-right: 50px;
+  }
 }
 
 .contact_ivent{
@@ -387,6 +401,79 @@ margin-bottom: 50px;
   max-width: 1440px;
   overflow: hidden;
   margin-bottom: 80px;
+  img{
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1320px){
+  .main_title{
+    font-family: 'Banny BoldRound';
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    line-height: 0;
+    color: #fff;
+  }
+  .wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .left_side, .rigt_side {
+    width: 400px*100%/1280px;
+    height: 40px;
+    max-width: 100%;
+    padding-top: 3.5%;
+    border-bottom: 1px solid #ffffff33;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  body {
+    overflow-x: hidden;
+    }
+  .wrapper{
+    width: 95%;
+    /* max-width: 750px; */
+    margin: 0 auto;
+  }
+  .logo{
+    display: none;
+  }
+  .logo-mob{
+    display: block;
+    margin-top: 30px;
+  }
+
 }
 
 
+@media screen and (max-width: 1010px){
+  .main_title{
+    font-family: 'Banny BoldRound';
+    font-size: 48px;
+  }
+  body {
+    overflow-x: hidden;
+    }
+  .wrapper{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .left_side, .rigt_side {
+    width: 300px*100%/1280px;
+    height: 30px;
+    max-width: 100%;
+    padding-top: 3.5%;
+    border-bottom: 1px solid #ffffff33;
+  }
+  .iv_img2{
+    img{
+    width: 32%;
+    height: 0%;
+    margin: 40px 50px 0px auto;
+    }
+}
+}
