@@ -398,7 +398,6 @@ margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1440px;
   overflow: hidden;
   margin-bottom: 80px;
   img{
@@ -463,7 +462,7 @@ margin-bottom: 50px;
     margin: 0 auto;
   }
   .left_side, .rigt_side {
-    width: 300px*100%/1280px;
+    width: 50%;
     height: 30px;
     max-width: 100%;
     padding-top: 3.5%;
