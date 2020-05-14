@@ -393,8 +393,14 @@ html, body {
   margin: 0 auto;
 }
 
-.wrapper3 .iv_img {
-  width: 40%;
+.wrapper3 .iv_img img {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.iv_img2 img {
+  width: 42%;
+  margin-right: 50px;
 }
 
 .contact_ivent {
@@ -412,7 +418,6 @@ html, body {
 
 /* PICTURES */
 .pictures {
-  /* flex: 1 0 0; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,7 +425,6 @@ html, body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  max-width: 1440px;
   overflow: hidden;
   margin-bottom: 80px;
 }
@@ -484,11 +488,16 @@ html, body {
     margin: 0 auto;
   }
   .left_side, .rigt_side {
-    width: 23.4375%;
+    width: 50%;
     height: 30px;
     max-width: 100%;
     padding-top: 3.5%;
     border-bottom: 1px solid #ffffff33;
+  }
+  .iv_img2 img {
+    width: 32%;
+    height: 0%;
+    margin: 40px 50px 0px auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
